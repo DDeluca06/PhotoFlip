@@ -33,10 +33,12 @@ section {
 }
 
 .photo-grid img {
-  width: 200px; 
-  height: 200px;
-  object-fit: cover; 
-  margin-bottom: 10px;
+  height: 300px;
+  width: 380px;
+}
+
+.footer {
+  font-size: small;
 }
 
 /* I don't even know what this does. Stackoverflow told me to do it, it worked, that's all I know. */

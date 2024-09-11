@@ -2,9 +2,9 @@
 - [x] Create an HTML header section and add todo comments for the future implementation of the project 
 - [x] Create footer that holds the temporary links for your social media handles that we will be adding as the project progresses
 - [ ] Create a main section that will hold the projects list 
-- [ ] In the main section nest an image tag and anchor tag for each image
-- [ ] Add the required and optional attributes to the image tag 
+- [x] In the main section nest an image tag and anchor tag for each image
+- [x] Add the required and optional attributes to the image tag 
 - [ ] Add the class attribute to all element 
-- [ ] Center the images on the page so that there’s an even amount of space from the top, bottom, left and right side of the page 
-- [ ] Comment the code to explain how you are thinking about adding new or existing elements 
+- [x] Center the images on the page so that there’s an even amount of space from the top, bottom, left and right side of the page 
+- [x] Comment the code to explain how you are thinking about adding new or existing elements 
 - [ ] Add id and class attributes names that are useful in helping to your peers so that they will be able to provide feedback
