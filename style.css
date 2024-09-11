@@ -39,6 +39,8 @@ section {
   margin-bottom: 10px;
 }
 
+/* I don't even know what this does. Stackoverflow told me to do it, it worked, that's all I know. */
+
 a {
   padding: 0 4px;
 }
