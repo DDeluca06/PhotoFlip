@@ -78,7 +78,9 @@ PhotoFlip is a product designed to keep your prized photos all in one place, so 
 
 ## Contact
 [Twitter](https://x.com)
+
 [Website](https://example.com)
+
 [LinkedIn](https://www.linkedin.com/in/demitri-deluca-lyons-747312319)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
