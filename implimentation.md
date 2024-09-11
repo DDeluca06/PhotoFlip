@@ -7,4 +7,4 @@
 - [ ] Add the class attribute to all element 
 - [x] Center the images on the page so that there’s an even amount of space from the top, bottom, left and right side of the page 
 - [x] Comment the code to explain how you are thinking about adding new or existing elements 
-- [ ] Add id and class attributes names that are useful in helping to your peers so that they will be able to provide feedback
+- [x] Add id and class attributes names that are useful in helping to your peers so that they will be able to provide feedback
