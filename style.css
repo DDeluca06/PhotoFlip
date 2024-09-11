@@ -29,7 +29,7 @@ section {
 .photo-grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: left;
 }
 
 .photo-grid img {
@@ -42,7 +42,6 @@ section {
 a {
   padding: 0 4px;
 }
-
 
 a + a { 
   margin-left: 1px; 
