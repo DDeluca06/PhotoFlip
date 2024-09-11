@@ -18,12 +18,12 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][https://github.com/DDeluca06/PhotoFlip/graphs/contributors]
-[![Forks][forks-shield]][https://github.com/DDeluca06/PhotoFlip/forks]
-[![Stargazers][stars-shield]][https://github.com/DDeluca06/PhotoFlip/stargazers]
-[![Issues][issues-shield]][https://github.com/DDeluca06/PhotoFlip/issues]
-[![MIT License][license-shield]][[license-url](https://github.com/DDeluca06/PhotoFlip/blob/main/LICENSE.txt)]
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/demitri-deluca-lyons-747312319]
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
