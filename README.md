@@ -30,7 +30,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-
+    <img src="Resources/PhotoFlip.png" alt="Logo" width="180" height="180">
 <h3 align="center">PhotoFlip</h3>
 
   <p align="center">
