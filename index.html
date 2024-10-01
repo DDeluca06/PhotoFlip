@@ -36,7 +36,6 @@
                         <ul class="comment-list">
                             <li>Great photo!</li>
                             <li>Love the composition!</li>
-                            <li>I think this guy robbed me???</li>
                         </ul>
                         <form class="comment-form">
                             <textarea placeholder="Add a comment..."></textarea>
@@ -62,7 +61,6 @@
                       <ul class="comment-list">
                           <li>Looks great, curio!</li>
                           <li>What lenses did you use?</li>
-                          <li>These guys robbed me too</li>
                       </ul>
                       <form class="comment-form">
                           <textarea placeholder="Add a comment..."></textarea>
@@ -70,7 +68,7 @@
                       </form>
                   </div>
               </div>
-              <div class="photo-card">
+              <div class="photo-card">  
                   <img src="Resources/Salamancas.jpg" alt="Family" class="photo">
                   <div class="photo-info">
                       <h3>"Salamancas"</h3>
@@ -89,7 +87,6 @@
                           <li>Old friends, nice people!</li>
                           <li>America doesn't make families like this anymore, sad.</li>
                           <li>yeah they also didn't make it to 50 usually lol</li>
-                          <li>Why is this site full of people who robbed me?</li>
                       </ul>
                       <form class="comment-form">
                           <textarea placeholder="Add a comment..."></textarea>
@@ -101,15 +98,23 @@
         </section>
     </main>
     <footer>
-        <div class="footer-content">
-            <p>&copy; PhotoFlip. All Rights Reserved.</p>
-        </div>
         <div class="feedback-form">
             <h3>Site Feedback</h3>
+            <div class="feedback-dropdown">
+                <button class="dropdown-button" aria-haspopup="true" aria-expanded="false">Select Feedback Type</button>
+                <div id="feedbackDropdown" class="dropdown-content">
+                    <a href="#!" data-value="feedback">Feedback</a> <!-- An event.preventDefault() would've solved this, but that event doesn't want to cooperate. -->
+                    <a href="#!" data-value="enhancements">Enhancements</a>
+                    <a href="#!" data-value="general">General Comments</a>
+                </div>
+            </div>
             <form id="feedback-form">
                 <textarea placeholder="Tell us what you think about our site..."></textarea>
-                <button type="submit">Submit Feedback</button>
+                <button type="submit" class="button" id="feedbtn">Submit Feedback</button>
             </form>
+        </div>
+                <div class="footer-content">
+            <p>&copy; PhotoFlip. All Rights Reserved.</p>
         </div>
     </footer>
     <script type="text/javascript" src="script.js"></script>
