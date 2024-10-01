@@ -18,7 +18,7 @@
         <section id="featured">
             <h2>Featured Photos</h2>
             <div class="photo-grid">
-                <div class="photo-card">
+                <div class="photo-card" id="card1">
                     <img src="Resources/DeLucas.jpg" alt="Family" class="photo">
                     <div class="photo-info">
                         <h3>"DeLucas"</h3>
@@ -41,9 +41,10 @@
                             <textarea placeholder="Add a comment..."></textarea>
                             <button class="postbtn" type="submit">Post</button>
                         </form>
+                        <button class="postbtn" onClick="hide('card1')">Hide</button>
                     </div>
                 </div>
-                <div class="photo-card">
+                <div class="photo-card" id="card2">
                   <img src="Resources/Robinsons.jpg" alt="Family" class="photo">
                   <div class="photo-info">
                       <h3>"Robinsons"</h3>
@@ -66,9 +67,10 @@
                           <textarea placeholder="Add a comment..."></textarea>
                           <button class="postbtn" type="submit">Post</button>
                       </form>
+                      <button class="postbtn" onClick="hide('card2')">Hide</button>
                   </div>
               </div>
-              <div class="photo-card">  
+              <div class="photo-card" id="card3">  
                   <img src="Resources/Salamancas.jpg" alt="Family" class="photo">
                   <div class="photo-info">
                       <h3>"Salamancas"</h3>
@@ -92,6 +94,7 @@
                           <textarea placeholder="Add a comment..."></textarea>
                           <button class="postbtn" type="submit">Post</button>
                       </form>
+                      <button class="postbtn" style="position:inherit;"; onClick="hide('card3')">Hide</button>
                   </div>
               </div>
             </div>
