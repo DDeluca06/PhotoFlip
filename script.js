@@ -82,39 +82,6 @@ document.querySelectorAll(".like, .dislike").forEach((button) => {
       alert("Report submitted. We will review this content.");
     });
   });
-  
-  // Site feedback functionality
-  document.getElementById("feedback-form").addEventListener("submit", function (e) {
-    e.preventDefault();
-    const textarea = this.querySelector("textarea");
-    const feedbackText = textarea.value.trim();
-    if (feedbackText) {
-      alert("Thank you for your feedback!");
-      textarea.value = "";
-      // If we had a server, send this back and ruin an engineer's day
-    }
-  });
-
-  // On click, show this list
-  dropdownButton.addEventListener('click', function() {
-      dropdownContent.classList.toggle('show');
-  });
-
-// When we select a feedback type, get rid of the list
-dropdownContent.addEventListener('click', function(event) {
-  if (event.target.hasAttribute('data-value')) {
-      dropdownButton.textContent = event.target.textContent;
-      dropdownContent.classList.remove('show');
-      // Debugging
-      console.log('Selected feedback type:', event.target.dataset.value);
-  }
-});
-// If we click outside of the feedback list, we should also close it
-window.addEventListener('click', function(event) {
-  if (!event.target.matches('#feedbtn') && !dropdownContent.contains(event.target)) {
-      dropdownContent.classList.remove('show');
-  }
-});
 
 // Handle form submission
 document.getElementById("feedback-form").addEventListener("submit", function (e) {
@@ -127,6 +94,7 @@ document.getElementById("feedback-form").addEventListener("submit", function (e)
       // If we had a server, send this back and ruin an engineer's day
   }
 }); 
+
 // Hide function, set display to none. You can't get this back! Which is an oversight!
 // (because I'm too lazy to put a button there to set the display back, but that's not here or there),
 // I'm the programmer, therefor, my word is law
@@ -134,3 +102,26 @@ function hide(obj) {
   let el = document.getElementById(obj);
   el.style.display = 'none';
 }
+
+// Toggle dropdown on button click
+dropdownButton.addEventListener('click', function(event) {
+    event.preventDefault(); // Prevent default action
+    dropdownContent.classList.toggle('show');
+});
+
+// Close dropdown when clicking outside
+window.addEventListener('click', function(event) {
+    if (!event.target.matches('.dropdown-button') && !dropdownContent.contains(event.target)) {
+        dropdownContent.classList.remove('show');
+    }
+});
+
+// Handle option selection
+dropdownContent.addEventListener('click', function(event) {
+    if (event.target.hasAttribute('data-value')) {
+        event.preventDefault(); // Prevent default action
+        dropdownButton.textContent = event.target.textContent;
+        dropdownContent.classList.remove('show');
+        console.log('Selected feedback type:', event.target.dataset.value);
+    }
+});
